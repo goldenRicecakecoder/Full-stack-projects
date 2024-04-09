@@ -1,0 +1,58 @@
+.Appv{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: orange;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+header.dayMode {
+    background-color: 'orange';
+}
+
+header.nightMode {
+    background-color: brown;
+}
+
+header .logo {
+    font-size: 25px;
+    background: black;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+header .nav a {
+    color: black;
+    display: block;
+    display: flex;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+.hero {
+    padding: 20px;
+    background-color: lightskyblue;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+footer {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+}
